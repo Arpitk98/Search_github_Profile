@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    font-family: "Oswald", sans-serif;
+      
+}
+
+h1{
+    font-size: 1.7em;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1.2em; 
+
+}
+
+.search{
+    display: flex;
+     width: 50%; 
+}
+
+
+.search input{
+    padding: 10px ;
+    width: 100%;
+
+}
+
+ button{
+    padding: 3px 20px;
+    background-color: rgb(113, 107, 107); 
+    color: white;
+    border: none;
+    font-size: medium;
+}
+
+.buttonclass:hover{
+    cursor: pointer; 
+    background-color: rgb(65, 62, 65);
+}
+.button:active{
+    background-color:  rgb(113, 107, 107);
+}
+
+/* prifle  */
+
+.profile{
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 0 0 1em rgba(9, 7, 7, 0.4);
+    transition: 0.4s ease-out;
+    background-color: gray;
+    
+}
+.profile:hover{
+    transform: rotate(-3deg) scale(1.01);
+    transition: 0.3s ease-in; 
+}
+
+.top{
+    display: flex;
+    justify-content: space-between; 
+    gap: 200px;
+}
+
+.left{
+    display: flex;
+    gap: 12px;
+}
+
+.avatar{
+    height: 70px;
+    width: 70px; 
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about{
+    margin: 23px 0px;
+}
+
+.about p{
+    color: white; 
+    
+}
+
+.status{
+    display: flex;
+    gap:80px;
+    justify-content: left;
+}
+
+.status-item p{
+    color: white;
+}
