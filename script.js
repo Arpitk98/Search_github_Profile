@@ -64,7 +64,7 @@ const fetchProfile = async () => {
       try {
          const res =  await fetch(`${url}/${user}`); 
          const data = await res.json();  
-         if(data.bio)   
+         if(data.login)   
             {    loadingEle.innerText="";
                 profileEle.innerHTML= generateProfile(data);  
             }
